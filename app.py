@@ -4,7 +4,7 @@ APP = Flask(__name__)
 
 @APP.route('/')
 def main():
-    message = {'message':'Hello to the very good nClouds'}
+    message = {'message':'Hello to the ab very good nClouds'}
     return json.dumps(message)
 
 if __name__ == '__main__':
